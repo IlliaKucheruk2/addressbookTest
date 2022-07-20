@@ -34,4 +34,8 @@ app.get('/add-user',(req,res)=>{
     res.render('add_user');
 })
 
+app.get('/update-user',(req,res)=>{
+    res.render('update_user');
+})
+
 app.listen(PORT,()=> {console.log(`Server is running pn http://localhost:${PORT}`)});
